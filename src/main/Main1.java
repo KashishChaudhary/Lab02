@@ -11,10 +11,12 @@ public class Main1 {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c, d;
+        int c, d, e;
         c = a + b;
         System.out.println("sum is = " + c);
         d = a - b;
         System.out.println("difference is = " + d);
+        e = a * b;
+        System.out.println("multiplication is = " + e);
     }
 }
