@@ -11,7 +11,7 @@ public class Main1 {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c, d, e, f;
+        int c, d, e, f, g;
         c = a + b;
         System.out.println("sum is = " + c);
         d = a - b;
@@ -20,6 +20,7 @@ public class Main1 {
         System.out.println("multiplication is = " + e);
         f = a / b;
         System.out.println("division is = " + f);
-
+        g = a % b;
+        System.out.println("remainder is = " + g);
     }
 }
