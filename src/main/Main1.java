@@ -12,6 +12,7 @@ public class Main1 {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c;
-
+        c = a + b;
+        System.out.println("sum is = " + c);
     }
 }
