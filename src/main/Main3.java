@@ -12,7 +12,8 @@ public class Main3 {
         int s = scanner.nextInt();
         if (s % 2 == 0) {
             System.out.println("even.");
+        } else {
+            System.out.println("odd.");
         }
-
     }
 }
