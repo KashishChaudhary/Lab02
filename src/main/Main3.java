@@ -10,6 +10,9 @@ public class Main3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int s = scanner.nextInt();
+        if (s % 2 == 0) {
+            System.out.println("even.");
+        }
 
     }
 }
